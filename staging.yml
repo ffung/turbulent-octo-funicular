@@ -1,0 +1,10 @@
+web:
+  extends:
+    file: common.yml
+    service: web
+  environment:
+    - TITLE=STAGING
+    - "constraint:environment==staging"
+  labels:
+  - "com.example.description=Awesome webapp"
+  - "com.example.department=IT"
