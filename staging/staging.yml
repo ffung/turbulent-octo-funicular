@@ -1,6 +1,6 @@
 web:
   extends:
-    file: common.yml
+    file: ../common.yml
     service: web
   environment:
     - TITLE=STAGING
